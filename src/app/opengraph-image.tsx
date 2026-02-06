@@ -35,17 +35,26 @@ export default function OgImage() {
             fill="none"
           >
             <path
-              d="M16 2L4 8v8c0 7.732 5.12 14.936 12 17 6.88-2.064 12-9.268 12-17V8L16 2z"
-              fill="rgba(255,255,255,0.1)"
-              stroke="white"
+              d="M11 14V10a5 5 0 0 1 10 0v4"
+              stroke="#0EA5E9"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+            />
+            <rect
+              x="7"
+              y="14"
+              width="18"
+              height="14"
+              rx="3"
+              fill="rgba(14,165,233,0.15)"
+              stroke="#0EA5E9"
               strokeWidth="2"
             />
             <path
-              d="M12 16l3 3 6-6"
-              stroke="#0EA5E9"
+              d="M18.5 18.5A3.5 3.5 0 1 0 18.5 23.5"
+              stroke="white"
               strokeWidth="2"
               strokeLinecap="round"
-              strokeLinejoin="round"
             />
           </svg>
           <span
