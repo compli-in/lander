@@ -36,13 +36,19 @@ export default function Header() {
         </Link>
         <div className="hidden sm:flex items-center gap-6">
           <Link
-            href="#features"
+            href="/#features"
             className="text-sm text-slate-600 hover:text-slate-900 transition-colors"
           >
             Features
           </Link>
           <Link
-            href="#coming-soon"
+            href="/blog"
+            className="text-sm text-slate-600 hover:text-slate-900 transition-colors"
+          >
+            Blog
+          </Link>
+          <Link
+            href="/#coming-soon"
             className="text-sm font-medium text-white bg-slate-900 px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors"
           >
             Get Early Access

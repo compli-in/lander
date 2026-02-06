@@ -32,8 +32,11 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-6 text-sm text-slate-500">
-            <a href="#features" className="hover:text-slate-700 transition-colors">
+            <a href="/#features" className="hover:text-slate-700 transition-colors">
               Features
+            </a>
+            <a href="/blog" className="hover:text-slate-700 transition-colors">
+              Blog
             </a>
             <a href="mailto:hello@compli.in" className="hover:text-slate-700 transition-colors">
               Contact
