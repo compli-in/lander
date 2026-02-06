@@ -2,7 +2,7 @@ export default function ComingSoon() {
   return (
     <section id="coming-soon" className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-12 sm:p-16 shadow-xl">
+        <div className="bg-gradient-to-br from-slate-800 to-slate-800/50 rounded-3xl p-12 sm:p-16 border border-slate-700/50">
           <div className="inline-flex items-center gap-2 bg-sky-500/10 text-sky-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path
@@ -18,7 +18,7 @@ export default function ComingSoon() {
             We&apos;re Building Something Special
           </h2>
 
-          <p className="text-lg text-slate-300 max-w-xl mx-auto mb-8 leading-relaxed">
+          <p className="text-lg text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">
             Compli is currently in development. Join our early access list to be the first
             to experience AI-powered compliance management.
           </p>
@@ -26,7 +26,7 @@ export default function ComingSoon() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="mailto:hello@compli.in"
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-slate-900 bg-white rounded-lg hover:bg-slate-100 transition-all hover:shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-slate-900 bg-sky-500 rounded-lg hover:bg-sky-400 transition-all hover:shadow-lg hover:shadow-sky-500/25"
             >
               <svg
                 className="mr-2 w-5 h-5"
@@ -45,7 +45,7 @@ export default function ComingSoon() {
             </a>
           </div>
 
-          <p className="text-sm text-slate-400 mt-6">
+          <p className="text-sm text-slate-500 mt-6">
             Questions? Reach out at{' '}
             <a href="mailto:hello@compli.in" className="text-sky-400 hover:text-sky-300 transition-colors">
               hello@compli.in

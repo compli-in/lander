@@ -43,7 +43,7 @@ const softwareSchema = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#0B0F1A]">
       <JsonLd data={organizationSchema} />
       <JsonLd data={websiteSchema} />
       <JsonLd data={softwareSchema} />

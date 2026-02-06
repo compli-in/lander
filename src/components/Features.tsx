@@ -63,13 +63,13 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-20 px-6 bg-slate-50">
+    <section id="features" className="py-20 px-6 bg-slate-900/50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4">
             Everything You Need for Compliance
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             Powerful tools designed to simplify your data protection and compliance journey.
           </p>
         </div>
@@ -78,15 +78,15 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-md hover:border-slate-200 transition-all group"
+              className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700/50 hover:border-slate-600 hover:bg-slate-800/80 transition-all group"
             >
-              <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-6 group-hover:bg-sky-100 transition-colors">
+              <div className="w-12 h-12 bg-sky-500/10 rounded-xl flex items-center justify-center text-sky-400 mb-6 group-hover:bg-sky-500/20 transition-colors">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">
+              <h3 className="text-xl font-semibold text-white mb-3">
                 {feature.title}
               </h3>
-              <p className="text-slate-600 leading-relaxed">
+              <p className="text-slate-400 leading-relaxed">
                 {feature.description}
               </p>
             </div>

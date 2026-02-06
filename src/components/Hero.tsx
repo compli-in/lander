@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="pt-32 pb-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 bg-sky-50 text-sky-700 px-4 py-2 rounded-full text-sm font-medium mb-8">
+        <div className="inline-flex items-center gap-2 bg-sky-500/10 text-sky-400 px-4 py-2 rounded-full text-sm font-medium mb-8">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
@@ -10,12 +10,12 @@ export default function Hero() {
           AI-Powered Compliance Platform
         </div>
 
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-slate-900 leading-tight tracking-tight mb-6">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight mb-6">
           Data Compliance,{' '}
-          <span className="text-sky-500">Simplified</span>
+          <span className="text-sky-400">Simplified</span>
         </h1>
 
-        <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           Automate your compliance workflows with AI. Manage policies, respond to security questionnaires,
           and stay ahead of regulations — all in one intelligent platform.
         </p>
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#coming-soon"
-            className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-slate-900 rounded-lg hover:bg-slate-800 transition-all hover:shadow-lg hover:-translate-y-0.5"
+            className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-slate-900 bg-sky-500 rounded-lg hover:bg-sky-400 transition-all hover:shadow-lg hover:shadow-sky-500/25 hover:-translate-y-0.5"
           >
             Get Early Access
             <svg
@@ -42,7 +42,7 @@ export default function Hero() {
           </a>
           <a
             href="#features"
-            className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-slate-700 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-all"
+            className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-slate-300 border border-slate-700 rounded-lg hover:bg-slate-800 hover:border-slate-600 transition-all"
           >
             Learn More
           </a>

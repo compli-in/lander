@@ -2,8 +2,8 @@
 @plugin "@tailwindcss/typography";
 
 @theme inline {
-  --color-background: #ffffff;
-  --color-foreground: #0f172a;
+  --color-background: #0B0F1A;
+  --color-foreground: #E2E8F0;
   --font-sans: var(--font-figtree), system-ui, sans-serif;
 }
 
