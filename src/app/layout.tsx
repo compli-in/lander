@@ -9,7 +9,11 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Compli - AI-Powered Compliance & Data Protection",
+  metadataBase: new URL("https://compli.in"),
+  title: {
+    default: "Compli - AI-Powered Compliance & Data Protection",
+    template: "%s | Compli",
+  },
   description:
     "Automate your compliance workflows with AI. Manage policies, respond to security questionnaires, and stay ahead of regulations with Compli.",
   keywords: [
@@ -21,14 +25,21 @@ export const metadata: Metadata = {
     "GDPR",
     "SOC 2",
     "ISO 27001",
+    "compliance automation",
+    "infosec",
+    "data privacy",
   ],
   authors: [{ name: "Compli" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Compli - AI-Powered Compliance & Data Protection",
     description:
       "Automate your compliance workflows with AI. Manage policies, respond to security questionnaires, and stay ahead of regulations.",
     url: "https://compli.in",
     siteName: "Compli",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
@@ -40,6 +51,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
