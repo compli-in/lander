@@ -1,8 +1,32 @@
+'use client';
+
+import { useState } from 'react';
+
 export default function ComingSoon() {
+  const [form, setForm] = useState({ name: '', email: '', company: '', message: '' });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus('loading');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error('Failed');
+      setStatus('success');
+      setForm({ name: '', email: '', company: '', message: '' });
+    } catch {
+      setStatus('error');
+    }
+  }
+
   return (
     <section id="early-access" className="py-20 px-6">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="bg-gradient-to-br from-slate-800 to-slate-800/50 rounded-3xl p-12 sm:p-16 border border-slate-700/50">
+      <div className="max-w-2xl mx-auto">
+        <div className="bg-gradient-to-br from-slate-800 to-slate-800/50 rounded-3xl p-10 sm:p-12 border border-slate-700/50">
           <div className="inline-flex items-center gap-2 bg-sky-500/10 text-sky-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
@@ -11,39 +35,93 @@ export default function ComingSoon() {
             Early Access Open
           </div>
 
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4">
-            Stop Guessing Your Compliance Posture
+          <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3">
+            Request Early Access
           </h2>
-
-          <p className="text-lg text-slate-400 max-w-xl mx-auto mb-4 leading-relaxed">
-            Join security teams already using Compli to get continuous visibility into their
-            cloud compliance — before auditors, regulators, or customers ask for it.
+          <p className="text-slate-400 mb-8 leading-relaxed">
+            We&apos;re onboarding a small group of security teams. Tell us about your environment
+            and we&apos;ll be in touch within 24 hours.
           </p>
 
-          <p className="text-slate-500 text-sm mb-8 max-w-lg mx-auto">
-            We&apos;re onboarding a small group of early customers. If you&apos;re a CISO or security
-            lead at a SaaS, fintech, or healthcare company, we&apos;d love to talk.
-          </p>
+          {status === 'success' ? (
+            <div className="flex flex-col items-center gap-4 py-8 text-center">
+              <div className="w-14 h-14 rounded-full bg-emerald-500/10 flex items-center justify-center">
+                <svg className="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-white font-semibold text-lg">You&apos;re on the list!</p>
+                <p className="text-slate-400 text-sm mt-1">We&apos;ll reach out within 24 hours.</p>
+              </div>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="space-y-1.5">
+                  <label className="text-sm text-slate-400">Name *</label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Priya Sharma"
+                    value={form.name}
+                    onChange={e => setForm({ ...form, name: e.target.value })}
+                    className="w-full bg-slate-900/60 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-sky-500 transition-colors"
+                  />
+                </div>
+                <div className="space-y-1.5">
+                  <label className="text-sm text-slate-400">Work Email *</label>
+                  <input
+                    type="email"
+                    required
+                    placeholder="priya@company.com"
+                    value={form.email}
+                    onChange={e => setForm({ ...form, email: e.target.value })}
+                    className="w-full bg-slate-900/60 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-sky-500 transition-colors"
+                  />
+                </div>
+              </div>
+              <div className="space-y-1.5">
+                <label className="text-sm text-slate-400">Company</label>
+                <input
+                  type="text"
+                  placeholder="Acme Corp"
+                  value={form.company}
+                  onChange={e => setForm({ ...form, company: e.target.value })}
+                  className="w-full bg-slate-900/60 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-sky-500 transition-colors"
+                />
+              </div>
+              <div className="space-y-1.5">
+                <label className="text-sm text-slate-400">What cloud(s) are you running?</label>
+                <textarea
+                  rows={3}
+                  placeholder="e.g. AWS (3 accounts), GCP. Currently doing SOC 2 Type II audit..."
+                  value={form.message}
+                  onChange={e => setForm({ ...form, message: e.target.value })}
+                  className="w-full bg-slate-900/60 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-sky-500 transition-colors resize-none"
+                />
+              </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
-              href="mailto:hello@compli.in?subject=Early Access Request"
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-slate-900 bg-sky-500 rounded-lg hover:bg-sky-400 transition-all hover:shadow-lg hover:shadow-sky-500/25 hover:-translate-y-0.5"
-            >
-              <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              Request Early Access
-            </a>
-          </div>
+              {status === 'error' && (
+                <p className="text-sm text-red-400">Something went wrong. Email us directly at{' '}
+                  <a href="mailto:hello@compli.in" className="underline">hello@compli.in</a>
+                </p>
+              )}
 
-          <p className="text-sm text-slate-500 mt-6">
-            Or reach us directly at{' '}
-            <a href="mailto:hello@compli.in" className="text-sky-400 hover:text-sky-300 transition-colors">
-              hello@compli.in
-            </a>
-          </p>
+              <button
+                type="submit"
+                disabled={status === 'loading'}
+                className="w-full inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-slate-900 bg-sky-500 rounded-lg hover:bg-sky-400 transition-all hover:shadow-lg hover:shadow-sky-500/25 disabled:opacity-60 disabled:cursor-not-allowed"
+              >
+                {status === 'loading' ? 'Sending...' : 'Request Early Access'}
+                {status !== 'loading' && (
+                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                )}
+              </button>
+            </form>
+          )}
         </div>
       </div>
     </section>
