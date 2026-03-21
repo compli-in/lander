@@ -1,57 +1,35 @@
 export default function Footer() {
   return (
-    <footer className="py-12 px-6 border-t border-slate-800">
+    <footer className="py-12 px-6 border-t border-slate-200">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11 14V10a5 5 0 0 1 10 0v4"
-                stroke="#0EA5E9"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-              />
-              <rect
-                x="7"
-                y="14"
-                width="18"
-                height="14"
-                rx="3"
-                fill="rgba(14,165,233,0.1)"
-                stroke="#0EA5E9"
-                strokeWidth="2"
-              />
-              <path
-                d="M18.5 18.5A3.5 3.5 0 1 0 18.5 23.5"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-              />
+            <svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="28" height="5" rx="2.5" fill="#EFF6FF"/>
+              <rect x="6" y="10" width="22" height="5" rx="2.5" fill="#0EA5E9"/>
+              <rect x="6" y="18" width="28" height="5" rx="2.5" fill="#EFF6FF"/>
+              <rect x="6" y="18" width="26" height="5" rx="2.5" fill="#0EA5E9" opacity="0.7"/>
+              <rect x="6" y="26" width="28" height="5" rx="2.5" fill="#EFF6FF"/>
+              <rect x="6" y="26" width="18" height="5" rx="2.5" fill="#0EA5E9" opacity="0.45"/>
             </svg>
-            <span className="text-lg font-semibold text-slate-100">Compli</span>
+            <span className="text-lg font-semibold text-slate-900">Compli</span>
           </div>
 
           <div className="flex items-center gap-6 text-sm text-slate-500">
-            <a href="/#features" className="hover:text-slate-300 transition-colors">
+            <a href="/#features" className="hover:text-slate-700 transition-colors">
               Features
             </a>
-            <a href="/blog" className="hover:text-slate-300 transition-colors">
+            <a href="/blog" className="hover:text-slate-700 transition-colors">
               Blog
             </a>
-            <a href="mailto:hello@compli.in" className="hover:text-slate-300 transition-colors">
+            <a href="mailto:hello@compli.in" className="hover:text-slate-700 transition-colors">
               Contact
             </a>
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-slate-800 text-center">
-          <p className="text-sm text-slate-600">
+        <div className="mt-8 pt-8 border-t border-slate-200 text-center">
+          <p className="text-sm text-slate-400">
             &copy; {new Date().getFullYear()} Compli. All rights reserved.
           </p>
         </div>

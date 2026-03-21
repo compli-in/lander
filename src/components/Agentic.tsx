@@ -55,18 +55,18 @@ export default function Agentic() {
     <section id="agentic" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-violet-500/10 text-violet-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center gap-2 bg-violet-50 text-violet-600 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                 d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
             What&apos;s Next — Agentic Compliance
           </div>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900 mb-4">
             Automated Today.{' '}
-            <span className="text-violet-400">Agentic Tomorrow.</span>
+            <span className="text-violet-600">Agentic Tomorrow.</span>
           </h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Scanning and mapping findings is just the start. The next layer of Compli is a suite
             of AI agents that don&apos;t just find problems — they help you fix them, explain them,
             and report on them automatically.
@@ -77,20 +77,20 @@ export default function Agentic() {
           {capabilities.map((cap) => (
             <div
               key={cap.title}
-              className="relative bg-slate-800/40 rounded-2xl p-6 border border-slate-700/50 hover:border-violet-500/30 transition-all group"
+              className="relative bg-white rounded-2xl p-6 border border-slate-200 hover:border-violet-300 hover:shadow-md transition-all group"
             >
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 shrink-0 group-hover:bg-violet-500/20 transition-colors">
+                <div className="w-10 h-10 bg-violet-50 rounded-xl flex items-center justify-center text-violet-600 shrink-0 group-hover:bg-violet-100 transition-colors">
                   {cap.icon}
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-base font-semibold text-white">{cap.title}</h3>
-                    <span className="text-xs text-violet-400 bg-violet-500/10 px-2 py-0.5 rounded-full border border-violet-500/20 shrink-0">
+                    <h3 className="text-base font-semibold text-slate-900">{cap.title}</h3>
+                    <span className="text-xs text-violet-600 bg-violet-50 px-2 py-0.5 rounded-full border border-violet-200 shrink-0">
                       {cap.status}
                     </span>
                   </div>
-                  <p className="text-slate-400 text-sm leading-relaxed">{cap.description}</p>
+                  <p className="text-slate-600 text-sm leading-relaxed">{cap.description}</p>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function Agentic() {
         <div className="mt-10 text-center">
           <p className="text-slate-500 text-sm">
             Want early access to agentic features?{' '}
-            <a href="mailto:hello@compli.in?subject=Agentic Features Early Access" className="text-violet-400 hover:text-violet-300 transition-colors">
+            <a href="mailto:hello@compli.in?subject=Agentic Features Early Access" className="text-violet-600 hover:text-violet-500 transition-colors">
               Let us know →
             </a>
           </p>
