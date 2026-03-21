@@ -43,7 +43,7 @@ export default function Header() {
             Blog
           </Link>
           <a
-            href="mailto:hello@compli.in?subject=Early Access Request"
+            href="/#early-access"
             className="text-sm font-medium text-white bg-sky-500 px-4 py-2 rounded-lg hover:bg-sky-400 transition-colors"
           >
             Request Early Access

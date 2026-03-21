@@ -100,7 +100,7 @@ export default function Agentic() {
         <div className="mt-10 text-center">
           <p className="text-slate-500 text-sm">
             Want early access to agentic features?{' '}
-            <a href="mailto:hello@compli.in?subject=Agentic Features Early Access" className="text-violet-600 hover:text-violet-500 transition-colors">
+            <a href="/#early-access" className="text-violet-600 hover:text-violet-500 transition-colors">
               Let us know →
             </a>
           </p>

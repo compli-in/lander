@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="mailto:hello@compli.in"
+            href="/#early-access"
             className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-sky-500 rounded-lg hover:bg-sky-400 transition-all hover:shadow-lg hover:shadow-sky-500/25 hover:-translate-y-0.5"
           >
             Request Early Access
