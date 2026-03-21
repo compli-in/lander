@@ -53,6 +53,12 @@ export default function Header() {
             Frameworks
           </Link>
           <Link
+            href="/#agentic"
+            className="text-sm text-slate-400 hover:text-slate-100 transition-colors"
+          >
+            Roadmap
+          </Link>
+          <Link
             href="/blog"
             className="text-sm text-slate-400 hover:text-slate-100 transition-colors"
           >

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import Frameworks from "@/components/Frameworks";
+import Agentic from "@/components/Agentic";
 import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
@@ -55,6 +56,7 @@ export default function Home() {
         <Features />
         <HowItWorks />
         <Frameworks />
+        <Agentic />
         <ComingSoon />
       </main>
       <Footer />
