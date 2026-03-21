@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0F1A]">
+    <div className="min-h-screen bg-white">
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
       <Header />
@@ -104,7 +104,7 @@ export default async function BlogPostPage({ params }: Props) {
         <article className="max-w-3xl mx-auto">
           <Link
             href="/blog"
-            className="inline-flex items-center text-sm text-slate-500 hover:text-slate-300 mb-8 transition-colors"
+            className="inline-flex items-center text-sm text-slate-500 hover:text-slate-700 mb-8 transition-colors"
           >
             <svg
               className="w-4 h-4 mr-1"
@@ -123,7 +123,7 @@ export default async function BlogPostPage({ params }: Props) {
           </Link>
 
           <header className="mb-12">
-            <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">
+            <div className="flex items-center gap-4 text-sm text-slate-400 mb-4">
               <time dateTime={post.date}>
                 {new Date(post.date).toLocaleDateString('en-US', {
                   year: 'numeric',
@@ -136,15 +136,15 @@ export default async function BlogPostPage({ params }: Props) {
               <span>·</span>
               <span>{post.author}</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-semibold text-white leading-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl font-semibold text-slate-900 leading-tight mb-6">
               {post.title}
             </h1>
-            <p className="text-xl text-slate-400 leading-relaxed">
+            <p className="text-xl text-slate-600 leading-relaxed">
               {post.description}
             </p>
           </header>
 
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-semibold prose-a:text-sky-400 prose-a:no-underline hover:prose-a:underline prose-p:text-slate-300 prose-li:text-slate-300 prose-strong:text-white prose-headings:text-white">
+          <div className="prose prose-slate prose-lg max-w-none prose-headings:font-semibold prose-a:text-sky-500 prose-a:no-underline hover:prose-a:underline">
             <MDXRemote source={post.content} />
           </div>
         </article>
