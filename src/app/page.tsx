@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import HowItWorks from "@/components/HowItWorks";
+import Frameworks from "@/components/Frameworks";
 import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
@@ -11,7 +13,7 @@ const organizationSchema = {
   name: "Compli",
   url: "https://compli.in",
   description:
-    "AI-powered compliance and data protection platform. Automate policy management, security questionnaire responses, and compliance workflows.",
+    "Cloud compliance automation platform for SOC 2, ISO 27001, and DPDP Act. Continuously scan AWS, Azure, GCP, and Kubernetes environments for security misconfigurations.",
   foundingDate: "2026",
   sameAs: [],
 };
@@ -22,7 +24,7 @@ const websiteSchema = {
   name: "Compli",
   url: "https://compli.in",
   description:
-    "AI-powered compliance and data protection platform.",
+    "India's cloud compliance automation platform.",
 };
 
 const softwareSchema = {
@@ -32,12 +34,12 @@ const softwareSchema = {
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
   description:
-    "AI-powered compliance platform for policy management, security questionnaire automation, and smart policy recommendations.",
+    "Automated cloud compliance scanning for AWS, Azure, GCP, and Kubernetes. Map findings to SOC 2, ISO 27001, and DPDP Act controls in real time.",
   offers: {
     "@type": "Offer",
-    availability: "https://schema.org/PreOrder",
+    availability: "https://schema.org/InStock",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "INR",
   },
 };
 
@@ -51,6 +53,8 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
+        <HowItWorks />
+        <Frameworks />
         <ComingSoon />
       </main>
       <Footer />

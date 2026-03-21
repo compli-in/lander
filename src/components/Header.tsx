@@ -41,10 +41,16 @@ export default function Header() {
         </Link>
         <div className="hidden sm:flex items-center gap-6">
           <Link
-            href="/#features"
+            href="/#how-it-works"
             className="text-sm text-slate-400 hover:text-slate-100 transition-colors"
           >
-            Features
+            How It Works
+          </Link>
+          <Link
+            href="/#frameworks"
+            className="text-sm text-slate-400 hover:text-slate-100 transition-colors"
+          >
+            Frameworks
           </Link>
           <Link
             href="/blog"
@@ -52,12 +58,12 @@ export default function Header() {
           >
             Blog
           </Link>
-          <Link
-            href="/#coming-soon"
+          <a
+            href="mailto:hello@compli.in?subject=Early Access Request"
             className="text-sm font-medium text-slate-900 bg-sky-500 px-4 py-2 rounded-lg hover:bg-sky-400 transition-colors"
           >
-            Get Early Access
-          </Link>
+            Request Early Access
+          </a>
         </div>
       </nav>
     </header>

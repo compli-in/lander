@@ -11,32 +11,37 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   metadataBase: new URL("https://compli.in"),
   title: {
-    default: "Compli - AI-Powered Compliance & Data Protection",
+    default: "Compli — Cloud Compliance Automation for SOC 2, ISO 27001 & DPDP Act",
     template: "%s | Compli",
   },
   description:
-    "Automate your compliance workflows with AI. Manage policies, respond to security questionnaires, and stay ahead of regulations with Compli.",
+    "Compli continuously scans AWS, Azure, GCP, and Kubernetes for security misconfigurations and maps every finding to SOC 2, ISO 27001, and DPDP Act controls. India's cloud compliance platform.",
   keywords: [
-    "compliance",
-    "data protection",
-    "AI",
-    "security questionnaire",
-    "policy management",
-    "GDPR",
-    "SOC 2",
+    "cloud compliance",
+    "SOC 2 automation",
     "ISO 27001",
-    "compliance automation",
-    "infosec",
-    "data privacy",
+    "DPDP Act",
+    "compliance scanning",
+    "AWS security",
+    "Azure compliance",
+    "GCP compliance",
+    "Kubernetes security",
+    "CISO dashboard",
+    "compliance posture",
+    "India compliance",
+    "CERT-In",
+    "security automation",
+    "cloud security posture management",
+    "CSPM",
   ],
   authors: [{ name: "Compli" }],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Compli - AI-Powered Compliance & Data Protection",
+    title: "Compli — Cloud Compliance Automation for SOC 2, ISO 27001 & DPDP Act",
     description:
-      "Automate your compliance workflows with AI. Manage policies, respond to security questionnaires, and stay ahead of regulations.",
+      "Continuously scan AWS, Azure, GCP, and Kubernetes against SOC 2, ISO 27001, and DPDP Act. India's cloud compliance platform.",
     url: "https://compli.in",
     siteName: "Compli",
     locale: "en_US",
@@ -44,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Compli - AI-Powered Compliance & Data Protection",
+    title: "Compli — Cloud Compliance Automation for SOC 2, ISO 27001 & DPDP Act",
     description:
-      "Automate your compliance workflows with AI. Manage policies, respond to security questionnaires, and stay ahead of regulations.",
+      "Continuously scan AWS, Azure, GCP, and Kubernetes against SOC 2, ISO 27001, and DPDP Act. India's cloud compliance platform.",
   },
   robots: {
     index: true,
