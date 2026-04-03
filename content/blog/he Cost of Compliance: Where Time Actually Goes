@@ -1,0 +1,148 @@
+---
+title: "The Cost of Compliance: Where Time Actually Goes"
+description: "Compliance cost is often measured in audit fees. This article breaks down where time is actually spent."
+date: "2026-03-05"
+author: "Compli Team"
+readTime: "5 min read"
+---
+
+Most teams think compliance cost is:
+
+- Audit fees  
+- Tooling costs  
+- Consultant spend  
+
+These are visible.
+
+They are not the primary cost.
+
+The real cost is internal time.
+
+And it is rarely measured.
+
+## Where Time Actually Goes
+
+Compliance work distributes across teams:
+
+Engineering:
+
+- Access reviews  
+- Logging setup  
+- Infrastructure changes  
+
+HR:
+
+- Onboarding and offboarding  
+- Policy acknowledgements  
+
+IT:
+
+- Device management  
+- Access provisioning  
+
+Security / Ops:
+
+- Incident tracking  
+- Vendor reviews  
+
+None of this is centralized.
+
+The cost is spread.
+
+## The Hidden Layer: Coordination
+
+The largest time sink is not execution.
+
+It is coordination.
+
+Time spent on:
+
+- Following up on tasks  
+- Clarifying ownership  
+- Tracking status  
+- Collecting evidence  
+
+This work does not move compliance forward.
+
+It keeps it from breaking.
+
+## The Rework Problem
+
+In audit-driven systems:
+
+- Work is repeated  
+- Evidence is recollected  
+- Gaps are rediscovered  
+
+This creates cyclical effort.
+
+Time is spent fixing the same problems multiple times.
+
+## The Spiky Load
+
+Compliance effort is not evenly distributed.
+
+It spikes before:
+
+- Audits  
+- Customer requests  
+- Certifications  
+
+During these periods:
+
+- Multiple teams are interrupted  
+- Priorities shift  
+- Work compresses  
+
+This creates operational disruption.
+
+## What a Stable System Changes
+
+A system-driven approach redistributes cost.
+
+From:
+
+- Coordination → Execution  
+- Spikes → Continuous flow  
+- Rework → One-time setup  
+
+Time is still spent.
+
+But it is spent once, not repeatedly.
+
+## Measuring Real Cost
+
+To understand compliance cost, track:
+
+- Hours spent on follow-ups  
+- Time to complete controls  
+- Number of repeated tasks  
+- Effort during audit periods  
+
+These reveal inefficiency.
+
+Not tool pricing.
+
+## The Misleading Comparison
+
+Two companies may spend the same on tools and audits.
+
+One spends:
+
+- 200 internal hours  
+
+The other:
+
+- 800 internal hours  
+
+The difference is system design.
+
+Not compliance scope.
+
+## Bottom Line
+
+Compliance cost is not what you pay vendors.
+
+It is how much internal time you consume to make the system work.
+
+That cost is determined by how execution is structured.
