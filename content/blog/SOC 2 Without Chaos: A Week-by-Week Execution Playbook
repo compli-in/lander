@@ -1,0 +1,88 @@
+---
+title: "SOC 2 Without Chaos: A Week-by-Week Execution Playbook"
+description: "A practical, execution-first breakdown of how to achieve SOC 2 without last-minute chaos. Week-by-week plan focused on ownership, workflows, and control execution."
+date: "2026-02-16"
+author: "Compli Team"
+readTime: "6 min read"
+---
+
+Most teams approach SOC 2 as a deadline. This creates predictable outcomes: last-minute scrambling, fragmented ownership, manual evidence collection, and high audit stress. SOC 2 does not require chaos. It requires structured execution.
+
+## The Problem with Typical SOC 2 Timelines
+
+Teams usually start late. They rely on checklists, consultants, and ad-hoc coordination. Work gets compressed into the final weeks. Execution becomes reactive.
+
+## The Execution Model
+
+SOC 2 should be treated as a system rollout, not an audit milestone. This requires defined ownership, sequenced execution, and continuous evidence generation. The timeline below reflects this approach.
+
+## Week 1: Scope and Ownership
+
+Define the system.
+
+- Identify in-scope systems and data flows  
+- Finalize trust service criteria  
+- Map controls at a high level  
+- Assign owners for each control  
+
+Output: clear scope, named owners, no ambiguity. Failure at this stage creates downstream delays.
+
+## Week 2: Control Design
+
+Translate requirements into execution.
+
+- Break controls into tasks  
+- Define frequency (daily, monthly, etc.)  
+- Identify required systems and dependencies  
+- Align with existing workflows  
+
+Output: executable control definitions. Avoid policy-heavy definitions that cannot be operationalized.
+
+## Week 3–4: Implementation
+
+Move from design to execution.
+
+- Configure access controls  
+- Set up logging and monitoring  
+- Implement approval workflows  
+- Align HR and onboarding processes  
+
+Output: controls live in systems. No placeholders. No partial implementations.
+
+## Week 5–6: Evidence Systems
+
+Ensure evidence is generated automatically.
+
+- Map each control to evidence outputs  
+- Integrate with source systems  
+- Eliminate manual uploads where possible  
+
+Output: evidence flows tied to execution. If evidence requires manual effort, the system is incomplete.
+
+## Week 7–8: Internal Validation
+
+Test the system.
+
+- Verify control execution  
+- Check evidence completeness  
+- Identify gaps in ownership or workflows  
+- Fix inconsistencies  
+
+Output: stable execution. Do not defer fixes to the audit phase.
+
+## Week 9+: Audit Readiness
+
+At this stage, controls are already running, evidence already exists, and ownership is stable. Audit becomes verification, not preparation.
+
+## What This Changes
+
+This model eliminates last-minute work, dependency on reminders, and audit-driven execution. It replaces them with continuous operation, system-driven workflows, and predictable outcomes.
+
+## Common Failure Points
+
+Even with a timeline, teams fail due to shared ownership, over-reliance on documentation, manual evidence collection, and treating implementation and execution as separate. Execution must be continuous from day one.
+
+## Closing
+
+SOC 2 does not fail because of complexity. It fails because execution is delayed. A structured, week-by-week system removes chaos. Compliance becomes a byproduct of how the organisation operates.
+```
