@@ -1,0 +1,71 @@
+---
+title: "Measuring Compliance: What Actually Matters"
+description: "Most teams measure compliance using audit outcomes. This article outlines what should actually be measured."
+date: "2026-03-02"
+author: "Compli Team"
+readTime: "4 min read"
+---
+
+Most organisations measure compliance using a single signal: audit outcome.
+
+Passed or failed.
+
+This is insufficient.
+
+Audit outcomes are lagging indicators. They reflect past execution, not current state.
+
+By the time an audit fails, the system has already been broken for months.
+
+Compliance needs leading indicators.
+
+Signals that reflect whether the system is operating correctly in real time.
+
+The first is task completion reliability.
+
+Not whether tasks exist, but whether they are completed consistently, on time, without follow-ups.
+
+A system that requires reminders is already degraded.
+
+The second is ownership stability.
+
+Controls should not change owners frequently. When ownership shifts without continuity, execution becomes inconsistent.
+
+The third is evidence latency.
+
+Time between execution and evidence availability.
+
+If evidence appears only during audits, the system is reactive.
+
+If it exists immediately after execution, the system is continuous.
+
+The fourth is control drift.
+
+The gap between defined controls and actual system behavior.
+
+This appears when:
+
+- Access is granted outside process  
+- Reviews are skipped  
+- Workflows are bypassed  
+
+Drift increases silently unless systems enforce alignment.
+
+The fifth is dependency load.
+
+Number of manual touchpoints required to complete a control.
+
+Higher dependency means higher failure probability.
+
+Most teams optimize for audit success.
+
+This leads to:
+
+- Periodic effort spikes  
+- Manual coordination  
+- Short-term fixes  
+
+A better system optimizes for execution consistency.
+
+Audit success becomes a byproduct.
+
+If compliance cannot be measured without an audit, it is not understood.
