@@ -1,0 +1,35 @@
+---
+title: "10 Rules to Judge Any Compliance System"
+description: "A set of simple rules to evaluate whether a compliance system is operational or fragile."
+date: "2026-03-25"
+author: "Compli Team"
+readTime: "3 min read"
+---
+
+1. If tasks require reminders, execution is not system-driven.
+
+2. If ownership is shared, accountability is unclear.
+
+3. If evidence is collected before audits, execution is not continuous.
+
+4. If status is updated manually, the system is not the source of truth.
+
+5. If work increases before deadlines, the system is reactive.
+
+6. If removing one person breaks the system, it is not durable.
+
+7. If controls need interpretation, they are not operational.
+
+8. If approvals happen outside defined workflows, controls are not enforced.
+
+9. If multiple tools are required to complete one control, coordination overhead is high.
+
+10. If compliance stops when pressure is removed, it is not embedded.
+
+Each rule points to the same issue.
+
+Execution is not enforced.
+
+A working system does not rely on exceptions.
+
+It minimizes them by design.
