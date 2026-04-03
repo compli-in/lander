@@ -1,0 +1,177 @@
+---
+title: "SOC 2, ISO 27001, HIPAA, GDPR and More: What They Actually Are"
+description: "A clear breakdown of major compliance frameworks and regulations, how they differ, and what they require from organisations."
+date: "2026-02-28"
+author: "Compli Team"
+readTime: "6 min read"
+---
+
+Most teams encounter compliance as a list of acronyms:
+
+SOC 2, ISO 27001, HIPAA, GDPR, PCI DSS.
+
+They are treated as separate problems.
+
+They are not.
+
+They fall into three categories: audits, certifications, and regulations.
+
+## Audit Frameworks
+
+### SOC 2
+
+SOC 2 is an audit.
+
+An external auditor evaluates whether your controls meet Trust Services Criteria:
+
+- Security  
+- Availability  
+- Processing Integrity  
+- Confidentiality  
+- Privacy  
+
+SOC 2 does not prescribe exact controls.
+
+It evaluates whether your system works as intended.
+
+Output: audit report.
+
+## Certification Standards
+
+### ISO 27001
+
+ISO 27001 is a certification.
+
+It requires building an Information Security Management System (ISMS).
+
+This includes:
+
+- Risk assessments  
+- Control selection  
+- Documentation  
+- Continuous improvement  
+
+It is structured and process-heavy.
+
+Output: certification.
+
+### PCI DSS
+
+PCI DSS applies to organisations handling card payments.
+
+It requires:
+
+- Secure infrastructure  
+- Network controls  
+- Monitoring and testing  
+
+It is prescriptive.
+
+Output: certification/attestation.
+
+## Regulations
+
+### HIPAA
+
+Applies to healthcare data (PHI).
+
+Defines legal obligations for:
+
+- Data protection  
+- Access control  
+- Breach response  
+
+Enforced by regulators.
+
+### GDPR
+
+Applies to personal data of EU residents.
+
+Requires:
+
+- Lawful basis for processing  
+- Data subject rights  
+- Breach notification  
+- Data minimization  
+
+Heavy penalties for non-compliance.
+
+### DPDP (India)
+
+India’s data protection law.
+
+Requires:
+
+- Purpose limitation  
+- Consent management  
+- Data principal rights  
+- Accountability  
+
+Similar directionally to GDPR, but scoped for India.
+
+## Key Differences
+
+Nature:
+
+- SOC 2: Audit  
+- ISO 27001 / PCI DSS: Certification  
+- HIPAA / GDPR / DPDP: Regulation  
+
+Enforcement:
+
+- Audits: Customer trust  
+- Certifications: Formal validation  
+- Regulations: Legal penalties  
+
+Flexibility:
+
+- SOC 2: Flexible  
+- ISO 27001: Structured  
+- Regulations: Partially prescriptive  
+
+## What They Have in Common
+
+Across all of them, the same operational controls repeat:
+
+- Access management  
+- Logging and monitoring  
+- Vendor management  
+- Incident response  
+- Data handling  
+
+The difference is not in the work.
+
+It is in how the work is evaluated.
+
+## Where Teams Go Wrong
+
+They treat each framework as a separate implementation.
+
+This leads to:
+
+- Duplicate controls  
+- Fragmented workflows  
+- Increased overhead  
+
+## Practical Model
+
+Build one execution system.
+
+Map multiple frameworks to it.
+
+- Controls overlap  
+- Tasks remain the same  
+- Evidence is reused  
+
+Frameworks change interpretation.
+
+They should not change execution.
+
+## Bottom Line
+
+These frameworks define expectations.
+
+They do not run your compliance.
+
+Execution remains the same system underneath.
+```
