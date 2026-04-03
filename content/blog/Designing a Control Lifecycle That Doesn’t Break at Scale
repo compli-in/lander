@@ -1,0 +1,167 @@
+---
+title: "Designing a Control Lifecycle That Doesn’t Break at Scale"
+description: "Most controls are defined once and break over time. This article outlines a lifecycle model that keeps controls operational as organisations scale."
+date: "2026-02-27"
+author: "Compli Team"
+readTime: "5 min read"
+---
+
+Most controls are written once and assumed to work indefinitely.
+
+They do not.
+
+Controls degrade as teams grow, systems change, and ownership shifts.
+
+The problem is not control design.
+
+It is the absence of a lifecycle.
+
+## The Control Lifecycle
+
+A control is not a static definition. It is a system that must move through stages:
+
+Design → Assignment → Execution → Evidence → Verification → Maintenance
+
+If any stage is weak, the control breaks.
+
+## 1. Design
+
+This is where most teams stop.
+
+Controls are defined as statements:
+
+“Access reviews must be conducted periodically.”
+
+This is incomplete.
+
+A valid design must specify:
+
+- Exact action  
+- Frequency  
+- System involved  
+- Expected output  
+
+If a control cannot be executed without interpretation, it will fail.
+
+## 2. Assignment
+
+Controls must map to a single owner.
+
+Not a team. Not multiple stakeholders.
+
+Assignment must include:
+
+- Named individual  
+- Role context  
+- Backup ownership  
+
+Without this, execution becomes inconsistent.
+
+## 3. Execution
+
+This is the most critical stage.
+
+Controls must run as part of normal operations.
+
+Not as separate compliance work.
+
+Execution must be:
+
+- Triggered automatically  
+- Embedded in workflows  
+- Independent of reminders  
+
+If execution depends on memory, it will degrade.
+
+## 4. Evidence
+
+Evidence should be generated during execution.
+
+Not collected after.
+
+This requires:
+
+- System-level logging  
+- Automatic capture  
+- Direct linkage to control activity  
+
+Manual evidence introduces gaps.
+
+## 5. Verification
+
+Execution is not sufficient.
+
+It must be verified.
+
+This includes:
+
+- Reviewing outputs  
+- Checking completeness  
+- Validating consistency over time  
+
+Verification ensures the control is not just performed, but performed correctly.
+
+## 6. Maintenance
+
+Controls must evolve.
+
+Changes in:
+
+- Team structure  
+- Systems  
+- Processes  
+
+Will break existing controls if not updated.
+
+Maintenance requires:
+
+- Periodic review  
+- Ownership validation  
+- System alignment  
+
+Without maintenance, controls decay.
+
+## Where Most Systems Fail
+
+Most teams invest in:
+
+- Design  
+- Evidence  
+
+They neglect:
+
+- Execution  
+- Verification  
+- Maintenance  
+
+This creates controls that look complete but fail in practice.
+
+## The Scale Problem
+
+As organisations grow:
+
+- Number of controls increases  
+- Ownership becomes distributed  
+- Systems change more frequently  
+
+Without a lifecycle, failure compounds.
+
+## The Model Shift
+
+Treat controls as living systems.
+
+Not static definitions.
+
+Each stage must be:
+
+- Explicit  
+- System-supported  
+- Continuously monitored  
+
+## Implication
+
+If a control cannot survive ownership changes, system changes, or time, it is not properly designed.
+
+It is temporary.
+
+A working control is one that continues to execute without intervention.
