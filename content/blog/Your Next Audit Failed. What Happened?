@@ -1,0 +1,91 @@
+---
+title: "Your Next Audit Failed. What Happened?"
+description: "A pre-mortem of a failed audit and the sequence of events that led to it."
+date: "2026-03-28"
+author: "Compli Team"
+readTime: "4 min read"
+---
+
+The audit failed.
+
+Not completely.
+
+But enough.
+
+There were gaps.
+
+Evidence was missing for certain controls.
+
+Some records were inconsistent.
+
+A few controls could not be validated.
+
+Nothing unexpected.
+
+But not acceptable.
+
+## What Actually Happened
+
+Three months before the audit:
+
+- Access reviews were delayed  
+- No one followed up  
+
+Two months before:
+
+- Ownership of a control changed  
+- No handover occurred  
+
+One month before:
+
+- Evidence started getting collected  
+- Gaps began to appear  
+
+Two weeks before:
+
+- Tasks were rushed  
+- Some controls were executed for the first time  
+
+During the audit:
+
+- Questions could not be answered clearly  
+- Evidence did not align with execution  
+
+## What Didn’t Happen
+
+- No system flagged missed execution  
+- No escalation occurred  
+- No ownership validation happened  
+
+Everything depended on:
+
+- Memory  
+- Coordination  
+- Timing  
+
+## Why It Failed
+
+Not because controls were missing.
+
+Because execution was inconsistent.
+
+The system allowed gaps to exist without detection.
+
+## What Would Have Changed This
+
+If the system:
+
+- Triggered tasks automatically  
+- Enforced ownership  
+- Generated evidence during execution  
+- Surfaced gaps immediately  
+
+The audit would not have introduced new information.
+
+It would have confirmed what was already true.
+
+## The Reality
+
+Audit failure is not an event.
+
+It is the visible outcome of months of silent inconsistency.
