@@ -1,0 +1,105 @@
+Next pattern: **Analogy (map to a different domain)**
+
+### Topic 39: Compliance Is Like Version Control
+
+```md id="u7r3nd"
+---
+title: "Compliance Is Like Version Control"
+description: "Understanding compliance through the lens of version control systems."
+date: "2026-03-23"
+author: "Compli Team"
+readTime: "3 min read"
+---
+
+Version control systems enforce how code changes.
+
+They do not rely on developers remembering best practices.
+
+They enforce structure:
+
+- Changes are tracked  
+- Ownership is clear  
+- History is preserved  
+- Actions are reversible  
+
+No one asks:
+
+“Did you remember to document this change?”
+
+The system ensures it.
+
+## Without Version Control
+
+Code would depend on:
+
+- Memory  
+- Communication  
+- Manual tracking  
+
+Changes would be:
+
+- Lost  
+- Untraceable  
+- Inconsistent  
+
+This is what compliance looks like in most organisations.
+
+## What Version Control Does
+
+It embeds rules into the system:
+
+- You cannot merge without checks  
+- You cannot lose history  
+- You cannot bypass visibility  
+
+The system enforces behavior.
+
+## What Compliance Tries to Do
+
+Compliance defines:
+
+- What should happen  
+- Who should do it  
+- When it should happen  
+
+But it does not enforce it.
+
+It relies on people.
+
+## The Gap
+
+Version control:
+
+- Enforces execution  
+
+Compliance systems:
+
+- Describe execution  
+
+This is the difference.
+
+## What a Similar System Would Do
+
+A system for compliance would:
+
+- Trigger tasks automatically  
+- Assign ownership by default  
+- Capture history continuously  
+- Prevent silent failure  
+
+Not through reminders.
+
+Through constraints.
+
+## The Parallel
+
+Developers do not “remember” version control.
+
+They work within it.
+
+Compliance should work the same way.
+
+Not as a checklist.
+
+As a system that cannot be bypassed without consequence.
+```
