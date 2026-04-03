@@ -1,0 +1,137 @@
+---
+title: "Who Owns Compliance Inside a Company?"
+description: "Compliance ownership is often unclear or centralized incorrectly. This article breaks down how ownership should actually be structured."
+date: "2026-03-15"
+author: "Compli Team"
+readTime: "4 min read"
+---
+
+Compliance is often assigned to a single function.
+
+Legal. Finance. Security.
+
+This creates clarity on paper.
+
+It creates failure in execution.
+
+## The Default Model
+
+A central team owns compliance.
+
+They are responsible for:
+
+- Policies  
+- Audits  
+- Coordination  
+
+Other teams are “involved.”
+
+This structure looks clean.
+
+It does not reflect how work happens.
+
+## Where Execution Actually Happens
+
+Compliance work is distributed.
+
+Engineering handles:
+
+- Access controls  
+- Infrastructure  
+- Logging  
+
+HR handles:
+
+- Onboarding  
+- Offboarding  
+- Policy acknowledgements  
+
+IT handles:
+
+- Device management  
+- Access provisioning  
+
+Security or ops handle:
+
+- Incident response  
+- Vendor oversight  
+
+The central team does not execute these.
+
+They coordinate them.
+
+## The Mismatch
+
+Ownership is centralized.
+
+Execution is distributed.
+
+This creates:
+
+- Constant follow-ups  
+- Delayed tasks  
+- Diffused accountability  
+
+The system depends on coordination.
+
+## What Ownership Should Look Like
+
+Ownership must follow execution.
+
+Each function owns its controls.
+
+Not as support.
+
+As accountability.
+
+This means:
+
+- Engineering owns infra-related controls  
+- HR owns people-related controls  
+- IT owns access and device controls  
+
+The central function defines and monitors.
+
+It does not execute everything.
+
+## The Role of the Central Owner
+
+A central owner still exists.
+
+But their role changes.
+
+They:
+
+- Define control structure  
+- Ensure system alignment  
+- Monitor execution health  
+
+They do not chase tasks.
+
+## What Breaks Without This
+
+When ownership does not align with execution:
+
+- Tasks get delayed  
+- Responsibility is unclear  
+- Compliance becomes dependent on individuals  
+
+This scales poorly.
+
+## The Shift
+
+From:
+
+- Centralized ownership  
+
+To:
+
+- Distributed accountability with centralized coordination  
+
+## What This Enables
+
+- Faster execution  
+- Clear accountability  
+- Reduced coordination overhead  
+
+The system aligns with how work actually happens.
