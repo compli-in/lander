@@ -1,0 +1,102 @@
+---
+title: "Ownership Drift"
+description: "How ownership slowly changes over time and breaks compliance without being noticed."
+date: "2026-03-27"
+author: "Compli Team"
+readTime: "3 min read"
+---
+
+Ownership does not break suddenly.
+
+It drifts.
+
+A control is assigned to someone.
+
+They understand it. They execute it.
+
+Then something changes.
+
+- They switch teams  
+- Their role expands  
+- A new person joins  
+
+The control is still “owned.”
+
+But not actively.
+
+Responsibility becomes implicit.
+
+Then shared.
+
+Then unclear.
+
+Execution slows.
+
+Not immediately.
+
+Gradually.
+
+A task is delayed once.
+
+Then skipped.
+
+Then forgotten.
+
+Nothing escalates.
+
+Because the system assumes ownership still exists.
+
+## Why It Goes Unnoticed
+
+Ownership is assigned once.
+
+It is rarely validated.
+
+There is no system checking:
+
+- Is this still the right owner?  
+- Is the task still being executed?  
+
+So drift continues.
+
+## Where It Shows Up
+
+During audits.
+
+Questions arise:
+
+- Who owns this control?  
+- When was it last executed?  
+
+Answers are reconstructed.
+
+Ownership is reassigned temporarily.
+
+## What Causes Drift
+
+- Role changes  
+- Team growth  
+- Lack of enforcement  
+- No ownership validation  
+
+Drift is not a failure of people.
+
+It is a failure of systems.
+
+## What Prevents It
+
+Ownership must be:
+
+- Explicit  
+- System-linked  
+- Continuously validated  
+
+Not assigned once and assumed.
+
+## The Reality
+
+Controls do not fail because they are unknown.
+
+They fail because no one is clearly responsible anymore.
+
+And no system detects that shift.
