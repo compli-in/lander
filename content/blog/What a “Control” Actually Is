@@ -1,0 +1,86 @@
+---
+title: "What a “Control” Actually Is"
+description: "Controls are often misunderstood as policies or checks. This article defines what a control actually is in practice."
+date: "2026-03-19"
+author: "Compli Team"
+readTime: "3 min read"
+---
+
+A control is not a policy.
+
+A control is not a checklist.
+
+A control is not a document.
+
+A control is a repeatable action that enforces a requirement.
+
+## What a Control Includes
+
+Every control has four parts:
+
+- Trigger: when it runs  
+- Action: what is done  
+- Owner: who is responsible  
+- Output: what is produced  
+
+If any of these are missing, the control is incomplete.
+
+## What a Control Is Not
+
+A policy states intent.
+
+“Access must be reviewed periodically.”
+
+This is not a control.
+
+It does not define:
+
+- When  
+- By whom  
+- How  
+- What proof exists  
+
+Without execution, it is a statement.
+
+## Where Teams Go Wrong
+
+Controls are defined as text.
+
+Not as actions.
+
+This creates:
+
+- Interpretation gaps  
+- Inconsistent execution  
+- Weak ownership  
+
+The control exists on paper.
+
+Not in practice.
+
+## What a Working Control Looks Like
+
+A working control:
+
+- Runs on a defined schedule  
+- Has a single owner  
+- Produces consistent output  
+- Can be verified independently  
+
+It does not depend on memory.
+
+It does not require interpretation.
+
+## The Test
+
+If you ask, “Was this control executed last month?” and cannot answer immediately, the control is not operational.
+
+## The Distinction
+
+Policies define what should happen.
+
+Controls ensure it does.
+
+Without controls, compliance is descriptive.
+
+With controls, it becomes operational.
