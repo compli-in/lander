@@ -1,0 +1,128 @@
+---
+title: "What Actually Breaks During an Audit (And How to Preempt It)"
+description: "Audits don’t fail because of missing policies. They fail because execution breaks. This article outlines where audits actually fail and how to prevent it."
+date: "2026-02-17"
+author: "Compli Team"
+readTime: "5 min read"
+---
+
+Audits rarely fail because a policy is missing. They fail because execution does not hold under scrutiny.
+
+Most teams assume audits test documentation. In practice, audits test whether systems behave the way policies claim they do.
+
+The gap between the two is where things break.
+
+## Where Audits Actually Break
+
+Failures are consistent across organisations. They are operational, not theoretical.
+
+### 1. Evidence Does Not Match Execution
+
+Evidence is often collected manually and retrospectively. This leads to inconsistencies:
+
+- Screenshots that do not reflect current state  
+- Logs that are incomplete  
+- Records that cannot be traced to actual workflows  
+
+Auditors look for alignment between action and proof. When evidence is reconstructed, this alignment breaks.
+
+### 2. Ownership Is Unclear
+
+Controls are assigned at a team level, not an individual level. During audits:
+
+- Questions get redirected  
+- Responses are delayed  
+- Accountability is diffused  
+
+Auditors expect clear ownership. Ambiguity slows down validation and increases risk.
+
+### 3. Controls Exist but Are Not Followed
+
+Policies define what should happen. Systems often do something else.
+
+Examples:
+
+- Access reviews defined but not performed regularly  
+- Onboarding checklists partially followed  
+- Approval workflows bypassed  
+
+Auditors test consistency. One-off compliance does not pass.
+
+### 4. Evidence Is Incomplete Across Time
+
+Audits do not check a single instance. They check continuity.
+
+Common issues:
+
+- Missing logs for specific periods  
+- Gaps in review records  
+- Inconsistent timestamps  
+
+This indicates that controls are not operating reliably.
+
+### 5. Vendor and Access Controls Are Weak
+
+Third-party access and internal permissions are frequent failure points:
+
+- Excessive access rights  
+- Lack of periodic review  
+- No clear tracking of vendor responsibilities  
+
+These are high-risk areas and receive deeper scrutiny.
+
+## Why These Failures Happen
+
+These issues are not caused by lack of knowledge. They are caused by system design.
+
+Most teams rely on:
+
+- Manual tracking  
+- Periodic reviews  
+- Audit-driven execution  
+
+This creates systems that look compliant but are not operationally stable.
+
+## How to Preempt Audit Failures
+
+Prevention requires shifting from documentation to execution.
+
+### Make Evidence a Byproduct
+
+Evidence should be generated automatically as work is completed. Manual collection introduces gaps and inconsistency.
+
+### Enforce Ownership
+
+Each control must have a single accountable owner. Ownership must be explicit and traceable.
+
+### Ensure Continuous Execution
+
+Controls must run on a defined cadence. Not just before audits. Not just when reminded.
+
+### Close the Loop
+
+Every control must have:
+
+- A trigger  
+- An owner  
+- A completion record  
+- A verification step  
+
+No partial execution.
+
+### Align Systems with Policy
+
+Policies must reflect actual system behavior. If systems allow bypassing controls, policies become irrelevant.
+
+## Implication
+
+If audit preparation requires significant manual effort, the system is already broken.
+
+Audits do not introduce problems. They expose them.
+
+## Closing
+
+Audits fail where execution is inconsistent.
+
+Fixing documentation does not solve this.
+
+Fixing execution does.
