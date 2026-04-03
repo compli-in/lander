@@ -1,0 +1,169 @@
+---
+title: "From Spreadsheet to System: How Compliance Workflows Should Be Structured"
+description: "Most teams start compliance in spreadsheets. This breaks at scale. A before-and-after breakdown of what actually changes."
+date: "2026-02-26"
+author: "Compli Team"
+readTime: "5 min read"
+---
+
+### Before: Spreadsheet-Driven Compliance
+
+A typical setup starts simple.
+
+Controls are listed in a spreadsheet. Columns track:
+
+- Owner  
+- Status  
+- Evidence link  
+- Last updated  
+
+At small scale, this works.
+
+Then the system expands.
+
+More controls are added. More teams get involved. More dependencies emerge.
+
+The spreadsheet becomes:
+
+- Hard to maintain  
+- Outdated quickly  
+- Dependent on manual updates  
+
+Execution moves outside the spreadsheet.
+
+The spreadsheet becomes a reporting layer.
+
+Not a system.
+
+---
+
+### What Actually Happens
+
+Work shifts into:
+
+- Slack messages  
+- Email threads  
+- Internal tickets  
+- Ad-hoc follow-ups  
+
+The spreadsheet is updated after the fact.
+
+Sometimes.
+
+This creates:
+
+- Inconsistent data  
+- Missing updates  
+- Delayed visibility  
+
+The system drifts from reality.
+
+---
+
+### Failure Signals
+
+The breakdown becomes visible through patterns:
+
+- “Last updated” timestamps lag behind execution  
+- Owners are unclear or outdated  
+- Evidence links are missing or duplicated  
+- Tasks are marked complete without verification  
+
+At this point, the spreadsheet is no longer reliable.
+
+---
+
+### After: System-Driven Compliance
+
+The shift is not from spreadsheet to software.
+
+It is from tracking to execution.
+
+A system-driven setup changes the structure:
+
+- Controls generate tasks automatically  
+- Tasks are assigned to individuals  
+- Execution happens within existing workflows  
+- Completion is tracked in real time  
+
+The system does not wait for updates.
+
+It reflects execution directly.
+
+---
+
+### What Changes in Practice
+
+Instead of updating a sheet:
+
+- Tasks are created from controls  
+- Owners receive work in their systems  
+- Completion generates evidence  
+- Status updates automatically  
+
+The system becomes the source of truth.
+
+---
+
+### Evidence Flow
+
+Before:
+
+- Evidence is collected manually  
+- Links are pasted into spreadsheets  
+- Gaps are discovered late  
+
+After:
+
+- Evidence is generated during execution  
+- Stored automatically  
+- Linked to tasks and controls  
+
+No manual stitching required.
+
+---
+
+### Ownership Clarity
+
+Before:
+
+- Ownership is assigned once  
+- Changes are not tracked  
+- Responsibility is diffused  
+
+After:
+
+- Ownership is tied to tasks  
+- Changes are reflected in real time  
+- Accountability is enforced  
+
+---
+
+### The Structural Shift
+
+The core change is simple:
+
+From:
+
+- Static tracking  
+- Manual updates  
+- Delayed visibility  
+
+To:
+
+- Dynamic execution  
+- System-driven updates  
+- Real-time state  
+
+---
+
+### What This Enables
+
+- Consistent execution  
+- Reliable evidence  
+- Reduced audit effort  
+- Lower coordination overhead  
+
+The system does not depend on memory.
+
+It operates continuously.
