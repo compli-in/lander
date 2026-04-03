@@ -1,0 +1,154 @@
+---
+title: "How to Run Compliance Like an Ops Function, Not a Finance Tax"
+description: "Compliance is often treated as a cost center owned by finance or legal. This article explains how to run compliance as an operations function with execution discipline."
+date: "2026-02-19"
+author: "Compli Team"
+readTime: "5 min read"
+---
+
+Most organisations treat compliance as a tax.
+
+It sits under finance or legal. It activates during audits. It is managed through documentation and external support.
+
+This model does not scale.
+
+Compliance is not a reporting function. It is an operations function.
+
+## The Finance-Led Model
+
+In most companies, compliance is:
+
+- Owned by finance, legal, or a small compliance team  
+- Executed through checklists and documentation  
+- Activated during audits or customer requests  
+
+This creates a centralized model for a distributed problem.
+
+Execution still depends on:
+
+- Engineering  
+- HR  
+- IT  
+- Security  
+
+Result: Ownership is misaligned with execution.
+
+## Why This Model Breaks
+
+### Work Happens Outside the Function
+
+Compliance tasks are executed across teams, not within finance or legal.
+
+When ownership sits outside execution, coordination becomes manual.
+
+Result: constant follow-ups and delays.
+
+### No Operational Discipline
+
+Finance-led compliance focuses on:
+
+- Documentation  
+- Reporting  
+- Audit preparation  
+
+It does not enforce:
+
+- Task execution  
+- Workflow consistency  
+- Real-time tracking  
+
+Result: compliance exists on paper, not in systems.
+
+### Audit-Driven Behavior
+
+The function activates when required:
+
+- Before audits  
+- During enterprise deals  
+
+Between these events, compliance degrades.
+
+## The Operations Model
+
+Compliance should be structured like any other operations function.
+
+This means:
+
+- Defined workflows  
+- Clear ownership  
+- Measurable outputs  
+- Continuous execution  
+
+## What Changes in Practice
+
+### Distributed Ownership
+
+Each function owns its controls:
+
+- Engineering owns access, logging, infra  
+- HR owns onboarding, offboarding  
+- IT owns device and access management  
+
+Ownership aligns with where work happens.
+
+### Central Coordination, Not Central Execution
+
+A compliance or security lead coordinates:
+
+- Control definitions  
+- System design  
+- Monitoring  
+
+They do not execute all tasks.
+
+Execution remains within teams.
+
+### Workflow Integration
+
+Compliance tasks must exist inside operational systems:
+
+- Ticketing tools  
+- HR systems  
+- Access management tools  
+
+Not in isolated dashboards.
+
+### Continuous Cadence
+
+Controls run on defined schedules:
+
+- Weekly reviews  
+- Monthly checks  
+- Real-time triggers  
+
+Not audit-driven timelines.
+
+## Metrics That Matter
+
+An operations model introduces measurable signals:
+
+- Task completion rates  
+- Time to close controls  
+- Evidence generation latency  
+- Ownership consistency  
+
+These replace audit outcomes as the primary indicator.
+
+## The Cost of Not Shifting
+
+Treating compliance as a tax leads to:
+
+- High audit effort  
+- Repeated rework  
+- Increased risk exposure  
+- Slower enterprise sales cycles  
+
+The system remains reactive.
+
+## Closing
+
+Compliance is not a finance problem.
+
+It is an execution problem.
+
+Run it like operations, or it will continue to behave like a tax.
