@@ -6,7 +6,7 @@ export function AgenticPreview() {
           <span className="inline-block text-[11px] uppercase tracking-[0.16em] text-[color:var(--accent)] border border-[#1e3a5f] px-3 py-1 rounded-full mb-4">Coming next</span>
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-3">Agentic remediation.</h2>
           <p className="text-[color:var(--text-dim)] max-w-2xl mx-auto">
-            Agentic remediation drafts the fix as a pull request, mapped to the same control. Land audit-ready commits without hand-written Terraform hunts.
+            Our agent drafts the fix as a pull request, mapped to the same control. Land audit-ready commits without hand-written Terraform hunts.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-0 rounded-xl overflow-hidden border border-[color:var(--border)]">
