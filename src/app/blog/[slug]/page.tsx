@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { getPostBySlug, getAllSlugs } from '@/lib/blog';
-import Header from '@/components/Header';
+import { TopNav } from '@/components/TopNav';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 
@@ -99,7 +99,7 @@ export default async function BlogPostPage({ params }: Props) {
     <div className="min-h-screen bg-white">
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
-      <Header />
+      <TopNav />
       <main className="pt-32 pb-20 px-6">
         <article className="max-w-3xl mx-auto">
           <Link

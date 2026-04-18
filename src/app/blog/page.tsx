@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/blog';
-import Header from '@/components/Header';
+import { TopNav } from '@/components/TopNav';
 import Footer from '@/components/Footer';
 
 export const metadata = {
@@ -13,7 +13,7 @@ export default function BlogPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      <TopNav />
       <main className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-semibold text-slate-900 mb-4">Blog</h1>
