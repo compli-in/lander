@@ -11,11 +11,11 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   metadataBase: new URL("https://compli.in"),
   title: {
-    default: "Compli — Cloud Compliance Automation for SOC 2, ISO 27001 & DPDP Act",
+    default: "Compli · DPDP-first cloud compliance for India",
     template: "%s | Compli",
   },
   description:
-    "Compli continuously scans AWS, Azure, GCP, and Kubernetes for security misconfigurations and maps every finding to SOC 2, ISO 27001, and DPDP Act controls. India's cloud compliance platform.",
+    "Continuously scan AWS, Azure, GCP, and Kubernetes against DPDP Act, SOC 2, and ISO 27001. Built in India, for India-first compliance.",
   keywords: [
     "cloud compliance",
     "SOC 2 automation",

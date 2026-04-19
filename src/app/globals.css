@@ -1,3 +1,29 @@
+:root {
+  --bg: #0b1220;
+  --bg-card: #0f1830;
+  --border: #1d2a44;
+  --text: #e6edf7;
+  --text-dim: #a9b7d1;
+  --text-muted: #8aa0c7;
+  --accent: #7dd3fc;
+  --accent-cta: #2563eb;
+  --warm: #b45309;
+  --cream: #f7f6f2;
+  --pass: #34d399;
+  --med: #f59e0b;
+  --high: #ef4444;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
