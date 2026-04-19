@@ -36,7 +36,7 @@ export function FindingsTicker({ findings, intervalMs = 2000 }: { findings: Find
         ))}
       </div>
       <span className="sr-only">
-        Live scan example showing findings such as public S3 buckets mapped to DPDP section 8(5), SOC 2 CC6.1, and ISO A.8.3 controls.
+        Live scan example showing findings such as buckets storing PII without encryption, mapped to DPDP section 8(5), SOC 2 CC6.1, and ISO A.8.24 controls.
       </span>
     </div>
   );

@@ -39,13 +39,13 @@ export function ScanMockDashboard({ step }: { step: 0 | 1 | 2 | 3 | 4 | 5 }) {
           }`}>
             <div className="flex justify-between">
               <span className="text-[10px] font-bold tracking-widest text-[#fca5a5]">HIGH</span>
-              <span className="text-[10px] text-[color:var(--text-muted)]">aws-s3</span>
+              <span className="text-[10px] text-[color:var(--text-muted)]">aws-s3 · PII</span>
             </div>
-            <div className="text-sm text-[color:var(--text)] mt-1">S3 public bucket</div>
-            <code className="text-xs bg-[color:var(--bg)] px-1.5 py-0.5 rounded">customer-exports</code>
+            <div className="text-sm text-[color:var(--text)] mt-1">Bucket stores PII without encryption</div>
+            <code className="text-xs bg-[color:var(--bg)] px-1.5 py-0.5 rounded">customers.raw-pii</code>
             {step >= 3 && (
               <div className="flex gap-1.5 mt-3 flex-wrap">
-                {["DPDP §8(5)", "SOC 2 CC6.1", "ISO A.8.3"].map(c => (
+                {["DPDP §8(5)", "SOC 2 CC6.1", "ISO A.8.24"].map(c => (
                   <span key={c} className="text-[10px] bg-[#1e3a5f] text-[color:var(--accent)] px-2 py-0.5 rounded">{c}</span>
                 ))}
               </div>

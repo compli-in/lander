@@ -10,9 +10,9 @@ const TIMELINE: { step: 0|1|2|3|4|5; at: number; highlight: string | null }[] = 
   { step: 2, at: 4000,  highlight: null },
   { step: 3, at: 6000,  highlight: null },
   { step: 4, at: 8000,  highlight: "SOC 2 CC6.1" },
-  { step: 4, at: 8500,  highlight: "ISO A.8.3" },
+  { step: 4, at: 8500,  highlight: "ISO A.8.24" },
   { step: 4, at: 9000,  highlight: "DPDP §8(5)" },
-  { step: 5, at: 10500, highlight: "ISO A.8.3" },
+  { step: 5, at: 10500, highlight: "ISO A.8.24" },
 ];
 const TOTAL = 12000;
 

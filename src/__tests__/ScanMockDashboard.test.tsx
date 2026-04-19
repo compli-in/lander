@@ -10,7 +10,7 @@ describe("ScanMockDashboard", () => {
 
   it("shows the scan finding detail at step 3", () => {
     render(<ScanMockDashboard step={3} />);
-    expect(screen.getByText(/S3 public bucket/i)).toBeInTheDocument();
+    expect(screen.getByText(/bucket stores pii without encryption/i)).toBeInTheDocument();
     expect(screen.getByText(/DPDP §8\(5\)/)).toBeInTheDocument();
   });
 
