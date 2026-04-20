@@ -6,7 +6,7 @@ describe("TopNav", () => {
   it("renders brand + all nav links + CTA", () => {
     render(<TopNav />);
     expect(screen.getByText("compli.in")).toBeInTheDocument();
-    ["Product", "Frameworks", "Pricing", "Blog"].forEach(l =>
+    ["Product", "How it Works", "Blog"].forEach(l =>
       expect(screen.getByRole("link", { name: l })).toBeInTheDocument(),
     );
     expect(screen.getByRole("link", { name: /request early access/i })).toBeInTheDocument();

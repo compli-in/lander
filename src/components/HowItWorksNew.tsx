@@ -15,7 +15,7 @@ function Step({ n, title, body, visual }: { n: number; title: string; body: stri
 
 export function HowItWorksNew() {
   return (
-    <section id="product" className="bg-[color:var(--bg)] text-[color:var(--text)] py-24 px-6">
+    <section id="how-it-works" className="bg-[color:var(--bg)] text-[color:var(--text)] py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-4">How it works.</h2>

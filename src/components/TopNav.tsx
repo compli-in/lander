@@ -30,9 +30,8 @@ export function TopNav() {
           compli.in
         </Link>
         <div className="flex items-center gap-7 text-[color:var(--text-dim)]">
-          <Link href="#product">Product</Link>
-          <Link href="#frameworks">Frameworks</Link>
-          <Link href="#pricing">Pricing</Link>
+          <Link href="/#see-it-catch">Product</Link>
+          <Link href="/#how-it-works">How it Works</Link>
           <Link href="/blog">Blog</Link>
           <Link href="#early-access" className="bg-[color:var(--accent-cta)] text-white px-3.5 py-1.5 rounded-md font-medium">
             Request Early Access

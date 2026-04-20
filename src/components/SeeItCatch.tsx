@@ -19,9 +19,11 @@ const TOTAL = 12000;
 export function SeeItCatch() {
   const reduced = useReducedMotion();
   const [idx, setIdx] = useState(reduced ? TIMELINE.length - 1 : 0);
+  const [replayKey, setReplayKey] = useState(0);
 
   useEffect(() => {
     if (reduced) return;
+    setIdx(0);
     const timers: ReturnType<typeof setTimeout>[] = [];
     TIMELINE.forEach((entry, i) => {
       if (i === 0) return; // already at 0
@@ -32,9 +34,10 @@ export function SeeItCatch() {
     const loopId = setTimeout(() => setIdx(0), TOTAL);
     timers.push(loopId);
     return () => timers.forEach(clearTimeout);
-  }, [reduced]);
+  }, [reduced, replayKey]);
 
   const current = TIMELINE[idx];
+  const handleReplay = () => setReplayKey(k => k + 1);
 
   return (
     <section id="see-it-catch" className="bg-[color:var(--bg)] text-[color:var(--text)] py-24 px-6">
@@ -46,7 +49,7 @@ export function SeeItCatch() {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-          <div className="lg:col-span-3"><ScanMockDashboard step={current.step} /></div>
+          <div className="lg:col-span-3"><ScanMockDashboard step={current.step} onReplay={reduced ? undefined : handleReplay} /></div>
           <div className="lg:col-span-2"><FrameworkPanel highlightedControl={current.highlight} /></div>
         </div>
       </div>
