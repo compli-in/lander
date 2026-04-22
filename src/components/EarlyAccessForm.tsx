@@ -22,7 +22,16 @@ export function EarlyAccessForm({ onSubmit }: { onSubmit?: (p: Payload) => Promi
     };
     setSubmitting(true);
     try {
-      if (onSubmit) await onSubmit(payload);
+      if (onSubmit) {
+        await onSubmit(payload);
+      } else {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        if (!res.ok) throw new Error("Submission failed");
+      }
       setDone(true);
     } finally {
       setSubmitting(false);
