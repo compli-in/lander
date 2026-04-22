@@ -1,0 +1,119 @@
+---
+title: "Understanding DPDPA — Part 4: Consent Is Not a Checkbox"
+description: "Why consent under DPDPA must be enforceable, revocable, and system-level—not just a UI artifact."
+date: "2026-04-22"
+author: "Compli Team"
+---
+
+## Part 4: Consent Is Not a Checkbox
+
+DPDPA is a consent-first law.
+
+Most companies already collect consent. That is irrelevant.
+
+The requirement is not collection. It is enforcement.
+
+### What Valid Consent Requires
+
+Consent must be:
+
+* Free  
+* Specific  
+* Informed  
+* Unambiguous  
+* Revocable  
+
+If any of these fail, consent is invalid.
+
+### Where Consent Breaks in Practice
+
+Common patterns:
+
+* One-time consent taken at signup  
+* Broad, undefined purposes  
+* No way to revoke without friction  
+* Revocation not propagating across systems  
+
+Consent exists in the UI. It does not exist in the system.
+
+### The Core Failure
+
+Consent is treated as a record.
+
+It is not.
+
+Consent is a state that must control processing.
+
+If a user withdraws consent:
+
+* Data collection must stop  
+* Processing must stop  
+* Downstream systems must stop  
+
+If systems continue processing, consent is meaningless.
+
+### Purpose Binding
+
+Consent is tied to purpose.
+
+This means:
+
+* Each purpose must be defined  
+* Consent must be collected per purpose  
+* Processing must be restricted to that purpose  
+
+Using data beyond the stated purpose invalidates consent.
+
+### Revocation Reality
+
+Revocation is where most systems fail.
+
+Typical gaps:
+
+* No central consent store  
+* No mapping between consent and data flows  
+* No mechanism to trigger downstream changes  
+
+Revocation must:
+
+* Be as easy as giving consent  
+* Take effect across all systems  
+* Stop future processing immediately  
+
+Delayed or partial revocation is non-compliance.
+
+### Legitimate Use Is Not a Shortcut
+
+DPDPA allows limited cases where consent is not required.
+
+These include:
+
+* Employment-related purposes  
+* Emergencies  
+* Certain state functions  
+
+Misusing "legitimate use" to bypass consent introduces risk.
+
+### What Enforcement Looks Like
+
+A compliant system:
+
+* Stores consent as a structured state  
+* Maps consent to specific purposes  
+* Links consent to processing systems  
+* Enforces checks before every processing action  
+* Propagates revocation in real time  
+
+Anything less is cosmetic compliance.
+
+### The Only Useful Model
+
+Treat consent as a gatekeeper.
+
+No valid consent → no processing.
+
+No enforcement → no compliance.
+
+DPDPA does not ask whether you collected consent.
+
+It asks whether your systems obey it.
