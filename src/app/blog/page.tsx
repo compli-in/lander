@@ -3,6 +3,8 @@ import { getAllPosts } from '@/lib/blog';
 import { TopNav } from '@/components/TopNav';
 import Footer from '@/components/Footer';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: 'Blog - Compli',
   description: 'Insights on compliance, data protection, and security best practices.',
