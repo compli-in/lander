@@ -36,6 +36,7 @@ export function getAllPosts(): BlogPostMeta[] {
   }
 
   const files = fs.readdirSync(contentDirectory);
+  const now = new Date();
 
   const posts = files
     .filter((file) => file.endsWith('.mdx'))
@@ -55,6 +56,7 @@ export function getAllPosts(): BlogPostMeta[] {
         readingTime: stats.text,
       };
     })
+    .filter((post) => new Date(post.date) <= now)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return posts;
