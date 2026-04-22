@@ -24,6 +24,12 @@ export interface BlogPostMeta {
   readingTime: string;
 }
 
+function normalizeDate(raw: unknown): string {
+  if (!raw) return new Date().toISOString();
+  if (raw instanceof Date) return raw.toISOString().split('T')[0];
+  return String(raw);
+}
+
 export function getAllPosts(): BlogPostMeta[] {
   if (!fs.existsSync(contentDirectory)) {
     return [];
@@ -44,7 +50,7 @@ export function getAllPosts(): BlogPostMeta[] {
         slug,
         title: data.title || slug,
         description: data.description || '',
-        date: data.date || new Date().toISOString(),
+        date: normalizeDate(data.date),
         author: data.author || 'Compli Team',
         readingTime: stats.text,
       };
@@ -69,7 +75,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     slug,
     title: data.title || slug,
     description: data.description || '',
-    date: data.date || new Date().toISOString(),
+    date: normalizeDate(data.date),
     author: data.author || 'Compli Team',
     readingTime: stats.text,
     content,
