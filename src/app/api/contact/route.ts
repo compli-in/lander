@@ -1,15 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
-  const { name, email, company, message } = await req.json();
+  const { email, company, cloud, frameworks } = await req.json();
 
-  if (!name || !email) {
-    return NextResponse.json({ error: "Name and email are required" }, { status: 400 });
+  if (!email) {
+    return NextResponse.json({ error: "Email is required" }, { status: 400 });
   }
 
   if (!process.env.SLACK_WEBHOOK_URL) {
     return NextResponse.json({ error: "Webhook not configured" }, { status: 500 });
   }
+
+  const frameworksStr = Array.isArray(frameworks) && frameworks.length ? frameworks.join(", ") : "—";
 
   try {
     await fetch(process.env.SLACK_WEBHOOK_URL, {
@@ -28,15 +30,12 @@ export async function POST(req: NextRequest) {
           {
             type: "section",
             fields: [
-              { type: "mrkdwn", text: `*Name:*\n${name}` },
               { type: "mrkdwn", text: `*Email:*\n${email}` },
               { type: "mrkdwn", text: `*Company:*\n${company || "—"}` },
+              { type: "mrkdwn", text: `*Primary cloud:*\n${cloud || "—"}` },
+              { type: "mrkdwn", text: `*Frameworks:*\n${frameworksStr}` },
             ],
           },
-          ...(message ? [{
-            type: "section",
-            text: { type: "mrkdwn", text: `*Message:*\n${message}` },
-          }] : []),
           {
             type: "actions",
             elements: [

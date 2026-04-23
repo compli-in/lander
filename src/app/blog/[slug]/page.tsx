@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[color:var(--bg)] text-[color:var(--text)]">
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
       <TopNav />
@@ -104,7 +104,7 @@ export default async function BlogPostPage({ params }: Props) {
         <article className="max-w-3xl mx-auto">
           <Link
             href="/blog"
-            className="inline-flex items-center text-sm text-slate-500 hover:text-slate-700 mb-8 transition-colors"
+            className="inline-flex items-center text-sm text-[color:var(--text-dim)] hover:text-[color:var(--text)] mb-8 transition-colors"
           >
             <svg
               className="w-4 h-4 mr-1"
@@ -123,7 +123,7 @@ export default async function BlogPostPage({ params }: Props) {
           </Link>
 
           <header className="mb-12">
-            <div className="flex items-center gap-4 text-sm text-slate-400 mb-4">
+            <div className="flex items-center gap-4 text-sm text-[color:var(--text-muted)] mb-4">
               <time dateTime={post.date}>
                 {new Date(post.date).toLocaleDateString('en-US', {
                   year: 'numeric',
@@ -136,15 +136,15 @@ export default async function BlogPostPage({ params }: Props) {
               <span>·</span>
               <span>{post.author}</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-semibold text-slate-900 leading-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[color:var(--text)] leading-tight mb-6">
               {post.title}
             </h1>
-            <p className="text-xl text-slate-600 leading-relaxed">
+            <p className="text-xl text-[color:var(--text-dim)] leading-relaxed">
               {post.description}
             </p>
           </header>
 
-          <div className="prose prose-slate prose-lg max-w-none prose-headings:font-semibold prose-a:text-sky-500 prose-a:no-underline hover:prose-a:underline">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-semibold prose-headings:text-[color:var(--text)] prose-p:text-[color:var(--text-dim)] prose-li:text-[color:var(--text-dim)] prose-strong:text-[color:var(--text)] prose-a:text-[color:var(--accent)] prose-a:no-underline hover:prose-a:underline prose-code:text-[color:var(--accent)] prose-code:bg-[color:var(--bg-card)] prose-pre:bg-[color:var(--bg-card)] prose-pre:border prose-pre:border-[color:var(--border)] prose-blockquote:text-[color:var(--text-dim)] prose-blockquote:border-[color:var(--accent)]">
             <MDXRemote source={post.content} />
           </div>
         </article>

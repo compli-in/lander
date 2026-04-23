@@ -1,8 +1,22 @@
 "use client";
 
-export function ScanMockDashboard({ step }: { step: 0 | 1 | 2 | 3 | 4 | 5 }) {
+export function ScanMockDashboard({ step, onReplay }: { step: 0 | 1 | 2 | 3 | 4 | 5; onReplay?: () => void }) {
   return (
-    <div className="rounded-xl border border-[color:var(--border)] bg-[color:var(--bg-card)] p-5 h-full">
+    <div className="rounded-xl border border-[color:var(--border)] bg-[color:var(--bg-card)] p-5 h-full relative">
+      {onReplay && (
+        <button
+          type="button"
+          onClick={onReplay}
+          aria-label="Replay scan animation"
+          className="absolute top-3 right-3 inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border)] bg-[color:var(--bg)] px-2 py-1 text-[11px] text-[color:var(--text-dim)] hover:text-[color:var(--text)] hover:border-[color:var(--accent)]/60 transition"
+        >
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M3 12a9 9 0 1 0 3-6.7" />
+            <path d="M3 4v5h5" />
+          </svg>
+          Replay
+        </button>
+      )}
       <div className="flex justify-between text-xs text-[color:var(--text-muted)] mb-4">
         <span>Dashboard · acme-prod</span>
         <span className="text-[color:var(--pass)]">● connected</span>
