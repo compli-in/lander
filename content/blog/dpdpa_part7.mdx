@@ -1,0 +1,131 @@
+---
+title: "Understanding DPDPA — Part 7: Rights That Force System Changes"
+description: "DPDPA rights are system-triggering events. Most companies are not built to execute them."
+author: "Compli Team"
+date: "2026-04-25"
+---
+
+## Part 7: Rights That Force System Changes
+
+DPDPA grants enforceable rights to Data Principals.
+
+These are not requests.
+
+They are system-triggering events.
+
+### The Core Rights
+
+Data Principals can:
+
+* Access their personal data
+* Request correction
+* Request erasure
+* File grievances
+* Nominate another person to exercise rights
+
+Each right requires action across systems.
+
+### Access Is Not a Report
+
+Providing access is not exporting a CSV.
+
+It requires:
+
+* Identifying all systems holding the individual's data
+* Aggregating data across sources
+* Presenting it in a usable format
+
+Failure pattern:
+
+* Partial data responses
+* Missing shadow data (logs, backups, vendors)
+* Manual, inconsistent handling
+
+If data cannot be fully retrieved, access is incomplete.
+
+### Correction Requires Propagation
+
+Correcting data in one system is insufficient.
+
+It must propagate to:
+
+* All internal systems
+* Downstream processors
+* Cached or duplicated datasets
+
+Failure pattern:
+
+* Updates applied only in primary database
+* Inconsistent records across systems
+* No sync mechanisms
+
+Inconsistent data is both a compliance and operational failure.
+
+### Erasure Is the Hardest Problem
+
+Erasure requires deletion across:
+
+* Primary databases
+* Backups
+* Logs
+* Third-party systems
+
+Failure pattern:
+
+* Soft deletes without actual removal
+* Backups retaining data indefinitely
+* No mechanism to trigger deletion across vendors
+
+If data still exists anywhere, erasure has failed.
+
+### Grievance Redressal
+
+Organizations must provide a mechanism to handle complaints.
+
+Failure pattern:
+
+* No defined workflow
+* Delayed responses
+* No tracking or accountability
+
+Grievance handling must be structured and time-bound.
+
+### Nomination
+
+Individuals can nominate another person to exercise their rights.
+
+This introduces:
+
+* Identity verification requirements
+* Authorization checks
+* Additional access controls
+
+Most systems are not designed for delegated rights.
+
+### Why Systems Break Here
+
+These rights require:
+
+* Cross-system visibility
+* Data linkage at the individual level
+* Real-time execution of actions
+
+Most companies lack all three.
+
+### The Only Useful Model
+
+Treat rights as system operations:
+
+* Access → query across all data stores
+* Correction → update with propagation
+* Erasure → delete with verification
+* Grievance → tracked workflow
+* Nomination → delegated authorization
+
+If these are manual, they will fail at scale.
+
+DPDPA does not grant passive rights.
+
+It requires active system response.
+
+If systems cannot execute these actions reliably, compliance does not exist.
