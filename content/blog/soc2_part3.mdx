@@ -1,0 +1,148 @@
+---
+title: "Understanding SOC 2 — Part 3: Trust Services Criteria (TSC)"
+description: "Breaking down the Trust Services Criteria and what they actually evaluate inside your systems."
+author: "Compli"
+date: "2026-04-30"
+---
+
+## Part 3: Trust Services Criteria (TSC)
+
+SOC 2 is structured around Trust Services Criteria.
+
+These are not abstract principles.
+
+They are evaluation lenses used by auditors to test your systems.
+
+### The Five Criteria
+
+**1. Security (Mandatory)**  
+Baseline requirement for all SOC 2 reports.
+
+Focus areas:
+
+* Access control  
+* System protection  
+* Monitoring and logging  
+* Risk mitigation  
+
+Security is not optional. Everything else builds on it.
+
+---
+
+**2. Availability**
+
+Evaluates whether systems are operational as committed.
+
+Focus areas:
+
+* Uptime commitments  
+* Incident response  
+* Capacity planning  
+* Backup and recovery  
+
+This is about reliability, not just uptime metrics.
+
+---
+
+**3. Processing Integrity**
+
+Evaluates whether systems process data correctly.
+
+Focus areas:
+
+* Accuracy of outputs  
+* Completeness of processing  
+* Timeliness  
+* Error handling  
+
+If your system produces incorrect or inconsistent results, this fails.
+
+---
+
+**4. Confidentiality**
+
+Focuses on protecting sensitive information.
+
+Focus areas:
+
+* Data classification  
+* Encryption  
+* Access restrictions  
+* Secure data handling  
+
+Not all data is equal. Controls must reflect sensitivity.
+
+---
+
+**5. Privacy**
+
+Applies to personal data.
+
+Focus areas:
+
+* Collection practices  
+* Use and disclosure  
+* Retention and deletion  
+* Individual rights  
+
+This overlaps with data protection laws but is evaluated through controls.
+
+---
+
+### What Teams Get Wrong
+
+Most companies treat TSC as checkboxes.
+
+Failure pattern:
+
+* Selecting all criteria without understanding scope  
+* Writing policies for each without system enforcement  
+* Over-scoping and increasing audit complexity  
+
+TSC selection defines audit scope.
+
+More criteria → more controls → more evidence → more failure points.
+
+---
+
+### How Auditors Use TSC
+
+Auditors map:
+
+* Your controls → to criteria  
+* Your evidence → to controls  
+* Your system behavior → to expectations  
+
+If mapping is unclear, controls are weak.
+
+If evidence is missing, controls fail.
+
+---
+
+### The Structural Insight
+
+TSC does not define what your system should be.
+
+It defines how your system will be judged.
+
+You are not building for TSC.
+
+You are proving your system behaves consistently under it.
+
+---
+
+### The Only Useful Model
+
+Treat each criterion as a system constraint:
+
+* Security → who can access what, and how it is monitored  
+* Availability → how systems behave under load and failure  
+* Processing Integrity → whether outputs are reliable  
+* Confidentiality → how sensitive data is protected  
+* Privacy → how personal data is governed  
+
+If these are not enforced at the system level, they will not survive audit.
+
+SOC 2 does not test whether you understand these criteria.
+
+It tests whether your systems operate under them.
